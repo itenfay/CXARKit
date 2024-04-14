@@ -1,0 +1,12 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'CXARKit_Example' do
+  pod 'CXARKit', :path => '../'
+  
+  target 'CXARKit_Tests' do
+    inherit! :search_paths
+    
+  end
+end
